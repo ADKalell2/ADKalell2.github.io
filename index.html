@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Kalell II Portfolio</title>
+    <!--------Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!---------AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-----------FontAwesomeIcons-->
+    <script src="https://kit.fontawesome.com/132272fa8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/KalellLogo.png" class="logo" data-aos="fade-right">
+                <ul id="sidemenu" data-aos="fade-left">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" data-aos="fade-right">
+                <p>Visual Content Designer</p>
+                <h1>Hi, I'm <span>Anthony</span><br>Kalell II From Ohio</h1>
+            </div>
+        </div>
+    </div>
+<!------------about------------>
+    <div id="about">
+        <div class="containter">
+            <div class="row">
+                <div class="about-col-1" data-aos="zoom-in-right">
+                    <img src="Images/ProfilePic1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" data-aos="fade-right">About <span>Me</span></h1>
+                    <p data-aos="fade-right">Innovative visual content designer, aiming to improve a design's/product's aesthetic appeal and usability with suitable images, typography, space, layout and color. I seek to use my creativity, technical skill, and digital marketing proficiency to generate influential design for clients. Lifelong artist with proficiency in numerous mediums, such as pencil drawing, photography, and video. Expertly utilize graphic design and coding software to bring my ideas visual prototypes.
+                        </p>
+                        <div class="tab-titles"data-aos="fade-right">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" data-aos="flip-left">
+                            <ul>
+                                <li><span>3D Modeling</span><br>Designing 3D Models</li>
+                                <li><span>Photography</span><br>Image Editing and Digital Imaging</li>
+                                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                                <li><span>Visual Content</span><br>Designing Graphic Artwork</li>
+                                <li><span>Web Development</span><br>Web Page Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>AUG 2023 - DEC 2023</span><br>Event Photography at Grand Rapids, OH</li>
+                                <li><span>MAY 2023 - AUG 2023</span><br>Visual Design Intern at Vital and FHR North America</li>
+                                <li><span>AUG 2020 - Current</span><br>Visual Content Designer for College and Personal Projects</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>DEC 2023</span><br>Bachelor of Science in Technology at Bowling Green State University</li>
+                                <li><span>DEC 2020</span><br>Associate of Art at Owens Community College</li>
+                                <li><span>MAY 2017</span><br>Highschool Diploma at Otesgo High School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------services-------------->
+    <div id="services">
+        <h1 class="sub-title" data-aos="fade-right">My <span>Services</span></h1>
+        <div class="services-list">
+            <div data-aos="flip-left">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Able to use specialized software to  incorporate elements like text, photos, graphics, animations, and videos.
+                    To create websites that look good on a variety of devices, including desktop computers and mobile phones.
+                    To create unique websites that reflect a brand and meet the needs of a target audience
+                </p>
+                <a href="https://www.behance.net/gallery/89032859/Interactive-Media-Design">Learn More</a>
+            </div>
+            <div data-aos="flip-up">
+                <i class="fa-solid fa-crop"></i>
+                <h2>UX/UI Design</h2>
+                <p>Able to use specialized software to ensure that websites are easy to navigate and provide a good user experience</p>
+                <a href="https://www.behance.net/gallery/89032859/Interactive-Media-Design">Learn More</a>
+            </div>
+            <div data-aos="flip-right">
+                <i class="fa-solid fa-print"></i>
+                <h2>Graphic Design</h2>
+                <p>Can use various softwares to aid new and recent businesses create visual concepts to communicate ideas and improve their image.</p>
+                <a href="https://www.behance.net/gallery/128821019/Graphic-Designs-Presentation">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="services-list">
+            <div data-aos="flip-left">
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Can use photography equipment and various softwares to shoot and improve the overall quality of your photos by enhancing colors, adjusting brightness and contrast, removing unwanted elements, and retouching imperfections.</p>
+                <a href="https://www.behance.net/gallery/128875705/PhotoImage-Editing-Samples">Learn More</a>
+            </div>
+            <div data-aos="flip-down">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h2>Character Design</h2>
+                <p>Can use various softwares to create characters for a variety of media, including animated films, video games, comics, TV, toys, and publications.</p>
+                <a href="#">In Progress</a>
+            </div>
+            <div data-aos="flip-right">
+                <i class="fa-brands fa-unity"></i>
+                <h2>3D Modeling</h2>
+                <p>Able to use specialized software to create digital representations of objects, characters, or environments in three dimensions. </p>
+                <a href="#">In Progress</a>
+            </div>
+        </div>
+    </div>
+    <!------------------Applications------------------>
+    <!------------------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" data-aos="fade-right">My <span>Web & UX/UI</span> Designs</h1>
+            <div class="work-list">
+                <div class="work" data-aos="zoom-in-right">
+                    <img src="Images/Flappybird.png">
+                    <div class="layer">
+                        <h3>Flash Game Webpage</h3>
+                        <p>As one of my personal projects, I learn from ground up of coding to recreate one of the famous flash games called flappybird.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in-down">
+                    <img src="Images/Interactive Images.png">
+                    <div class="layer">
+                        <h3>Interactive Image Webpage</h3>
+                        <p>I created a one-page, responsive image gallery for the user to view thumbnail images.
+                            When the user clicks on a thumbnail, a larger overlay image animates smoothly, and the res
+                            of the page is impeded by semi-transparennt backdrop.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in-left">
+                    <img src="Images/Pixel Art Page.png">
+                    <div class="layer">
+                        <h3>Pixel Art Drawing Webpage</h3>
+                        <p>I created on interactive grid of 16 x 16 squares. The user will be able to choose a color,
+                            then assign that color to any square by clicking on it. In short terms, I created a Pixel Art App Page.
+                        </p>
+                        <a href="Webpage Designs/Kalell_PixalArt/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn" data-aos="zoom-in">See more</a>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" data-aos="fade-right">My <span>Graphic</span> Designs</h1>
+            <div class="work-list">
+                <div class="work" data-aos="zoom-in-right">
+                    <img src="Images/LogoDesign.png">
+                    <div class="layer">
+                        <h3>Logo Design</h3>
+                        <p>One of the many logo designs I created for both college and personal projects such my own branding</p>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="Images/LionFontPoster.png">
+                    <div class="layer">
+                        <h3>Image Editing</h3>
+                        <p>This project gave me the skill of improving and modifying digital images using GIMP (GNU Image Manipulation Program) software.
+                            I have designed a Font Poster of a Lion along with quote about the lion.
+                        </p>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in-left">
+                    <img src="Images/Window Vinyl_AK2.png">
+                    <div class="layer">
+                        <h3>Window Vinyl Design</h3>
+                        <p>I can design for perforated vinyl materials and use application techniques for perforated vinyl</p>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn" data-aos="zoom-in">See more</a>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" data-aos="fade-right">My <span>Photography</span></h1>
+            <div class="work-list">
+                <div class="work" data-aos="zoom-in-right">
+                    <img src="Images/Travel2.jpg">
+                    <div class="layer">
+                        <h3>Travel Log Photography</h3>
+                        <p>This project from college allowed me to photograph images showing people,
+                            details, and interiors/exteriors. In this photo is my personal day enjoying
+                            the park.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="Images/Comp5.jpg">
+                    <div class="layer">
+                        <h3>Composition</h3>
+                        <p>I make collections of photos with composition, different angles, and lighting of photos
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in-left">
+                    <img src="Images/Advocacy.jpg">
+                    <div class="layer">
+                        <h3>Available Light Source Photography</h3>
+                        <p>This project allows me to use any available source of light for the purpose of taking pictures.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn" data-aos="zoom-in">See more</a>
+        </div>
+    </div>
+<!--------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" data-aos="fade-right"><span>Contact</span> Me</h1>
+                <p data-aos="zoom-in-right"><i class="fa-solid fa-paper-plane"></i> anthonykalell@gmail.com</p>
+                <p data-aos="zoom-in-right"><i class="fa-solid fa-square-phone"></i> (419)494-3848</p>
+                <div class="social-icons" data-aos="zoom-in-right">
+                    <a href="https://facebook.com/anthony.kalell2.5/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/adkalell2/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anthony-d-kalell-ii-b42812220"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.pinterest.com/anthonykalellii1112/"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.tumblr.com/anthonykalell2?source=share"><i class="fa-brands fa-tumblr"></i></a>
+                </div>
+                <a href="Images/Visual Designer Resume_AK.pdf" download="" class="btn btn2" data-aos="zoom-in-right">Download Resume</a>
+            </div>
+            <div class="contact-right" data-aos="zoom-in-left">
+                <h1>Have any <span>Projects</span>?</h1>
+                <h2>Let's connect. Connecting with you will benefit both of us and your business.</h2>
+                <br>
+                <h3>If you want to learn more about my journey as a designer,</h3>
+                <h3>Go to my behance website, <a href="https://www.behance.net/anthonykalellart"><span style="color: aqua;">Anthony Kalell Art</span></a></h3>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn" data-aos="zoom-in">Back To Homepage</a>
+    <div class="copyright">
+        <p>Created by Anthony Kalell II using HTML, CSS, & JS. <i class="fa-regular fa-copyright"></i> 2024 All Rights Reserved. Hosted by <i class="fa-brands fa-github"></i>.</p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/smooth-parallax.js"></script>
+    <script type="text/javascript">
+            window.addEventListener("load", function () {
+              SmoothParallax.init();
+            });
+            AOS.init();
+    </script>
+</body>
+</html>
